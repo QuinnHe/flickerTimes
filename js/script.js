@@ -1,5 +1,5 @@
 let NYTimesArticles;
-
+let tempTerm;
 
 function makeHTML(article){
     let headline = "<h2><a href=" + article.web_url + ">" + article.headline.main + "</a></h2>";
